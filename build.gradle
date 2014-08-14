@@ -35,4 +35,7 @@ task clean(){
 delete "out.xml"
 }
 
+task check(){
+}
+
 
