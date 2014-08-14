@@ -1,5 +1,3 @@
-defaultTasks 'clean', 'run'
-
 buildscript {
     repositories {
        mavenCentral()
@@ -30,7 +28,7 @@ class CalabashTask extends DefaultTask {
   }
 }
 
-task run(type: CalabashTask) {
+task assemble(type: CalabashTask) {
 }
 
 task clean(){
