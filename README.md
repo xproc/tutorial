@@ -1,6 +1,4 @@
-[![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://travis-ci.org/travis-ci/travis-build)
-tutorial
-========
+# tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://travis-ci.org/travis-ci/travis-build)
 
 The goals for xproc tutorial are manifold and wondrous.
 
