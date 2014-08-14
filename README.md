@@ -1,7 +1,7 @@
 tutorial
 ========
 
-The goals for xproc tutorial are manifold.
+The goals for xproc tutorial are manifold and wondrous.
 
 First we want to provide a high quality tutorial that will be the entry point to learning XProc. 
 
@@ -16,3 +16,4 @@ workflow
 ideas
 * other targets (saxon-ce help)
 * xquerydoc in docbook ?
+
