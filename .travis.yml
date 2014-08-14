@@ -2,10 +2,10 @@ language: java
 
 deploy:
   provider: releases
-  api-key: "9aaa0783049e0f6c9cf14091b94bb44914f55d77"
+  api-key: "02b7774b26e3efbc8414a71bb358a1cc6a2233cb"
   file:
     - "out.xml"
   skip_cleanup: true
   on:
-    tags: false
+    tags: true
     all_branches: true
