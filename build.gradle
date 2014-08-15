@@ -1,12 +1,12 @@
 defaultTasks 'assemble', 'check'
 
 buildscript {
-    repositories {
-       mavenCentral()
-    }
-    dependencies {
-       classpath group: 'com.xmlcalabash', name:'xmlcalabash', version:'1.0.13-94'
-    }
+repositories {
+mavenCentral()
+}
+dependencies {
+classpath group: 'com.xmlcalabash', name:'xmlcalabash', version:'1.0.13-94'
+}
 }
 
 import org.gradle.api.DefaultTask
@@ -15,42 +15,34 @@ import com.xmlcalabash.drivers.Main
 
 class CalabashTask extends DefaultTask {
 
-  @TaskAction
-  def calabashAction() {
-    def args = [
-      "--debug",
-      "-isource=src/tutorial.xml",
-      "-oresult=dist/tutorial.asciidoc",
-      "deps/docbook-toolchain/docbook-toolchain.xpl",
-      "chunk-output=false"
-    ]
+@TaskAction
+def calabashAction() {
+def args = [
+"-isource=src/tutorial.xml",
+"-oresult=dist/asciidoc/tutorial.asciidoc",
+"deps/docbook-toolchain/docbook-toolchain.xpl",
+"chunk-output=false"
+]
 
-    Main.main(args as String[])
-  }
+Main.main(args as String[])
+}
 }
 
-def distDir = new File('dist')
-
-println '-----------------------'
-println 'Building xproc-tutorial'
-println '-----------------------'
+println '-----------------------------'
+println 'start building xproc-tutorial'
+println '-----------------------------'
 
 task assemble() {
-     println 'created dist directory'
+     def distDir = new File('dist')
+     task clean(type: Delete) {
+          delete 'dist'
+     }
      distDir.mkdirs()
 }
 
 task check(type: CalabashTask){
-
-println 'invoking xproc'
-
-task copyPoems(type: Copy) {
-  from 'dist/'
-  into 'tutorial/'
+     task copy(type: Copy) {
+          from 'dist/'
+          into 'tutorial/'
+     }
 }
-
-println 'copy asciidoc to tutorial'
-
-}
-
-
