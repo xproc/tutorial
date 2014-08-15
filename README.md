@@ -1,10 +1,10 @@
-# tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
+# XProc tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
 
 ## How to use this Tutorial
 
 You can download the tutorial, with the latest release always available [here](https://github.com/xquery/xproc-tutorial/releases/latest)
 
-## Publish tutorial
+## How to publish tutorial
 
 run gradle which will pull down XProc and build from docbook source
 
