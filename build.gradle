@@ -1,4 +1,4 @@
-defaultTasks 'assemble', 'check'
+defaultTasks 'assemble', 'check', 'copyDocs'
 
 buildscript {
 repositories {
@@ -32,17 +32,29 @@ println '-----------------------------'
 println 'start building xproc-tutorial'
 println '-----------------------------'
 
-task assemble() {
-     def distDir = new File('dist')
-     task clean(type: Delete) {
-          delete 'dist'
-     }
-     distDir.mkdirs()
+task clean(type: Delete) {
+     outputs.upToDateWhen { false }
+outputs.upToDateWhen { false }
+delete 'dist'
+}
+
+task mkdir() {
+    outputs.upToDateWhen { false }
+	File distDir = file("dist")
+	File asciidocDir = file("dist/asciidoc")
+	distDir.mkdirs()
+    asciidocDir.mkdirs()
+}
+
+task assemble(dependsOn: ['mkdir']) {
+    outputs.upToDateWhen { false }
 }
 
 task check(type: CalabashTask){
-     task copy(type: Copy) {
-          from 'dist/'
-          into 'tutorial/'
-     }
+
+}
+
+task copyDocs(type: Copy) {
+  from 'dist/'
+  into 'tutorial/'
 }

@@ -1,7 +1,7 @@
 # XProc tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
 
 Start reading
-* [xproc-tutorial (asciidoc)](https://github.com/xquery/xproc-tutorial/blob/master/tutorial/asciidoc/tutorial.asciidoc)
+* [xproc-tutorial (asciidoc)](https://github.com/xquery/xproc-tutorial/blob/master/tutorial/tutorial.asciidoc)
 * [xproc-tutorial (pdf)](https://github.com/xquery/xproc-tutorial/blob/master/tutorial/asciidoc/tutorial.asciidoc)
 
 Download
