@@ -22,7 +22,7 @@ class CalabashTask extends DefaultTask {
   def calabashAction() {
     def args = [
       "-isource=example.xml",
-      "-oresult=out.xml",
+      "-oresult=dist/tutorial.xml",
       "example.xpl"
     ]
 
