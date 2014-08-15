@@ -21,9 +21,9 @@ class CalabashTask extends DefaultTask {
   @TaskAction
   def calabashAction() {
     def args = [
-      "-isource=example.xml",
+      "-isource=src/example.xml",
       "-oresult=dist/tutorial.xml",
-      "example.xpl"
+      "docbook-toolchain.xpl"
     ]
 
     Main.main(args as String[])

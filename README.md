@@ -6,7 +6,7 @@ Is always available [here](https://github.com/xquery/xproc-tutorial/releases/lat
 
 ## Goal of this Tutorial
 
-The goal is to provide a high quality tutorial that will be an entry point to learning XProc in both the first five minutes and first day scenariosg. 
+The goal is to provide a high quality tutorial that will be an entry point to learning XProc. 
 
 Additionally, we want to provide a reference publishing workflow using XProc with github for for publishing books with docbook.
 
