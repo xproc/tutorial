@@ -1,0 +1,15 @@
+= XProc Tutprial
+
+
+== Introduction
+
+If you have any opening text before the first section heading, put it
+  here. (Do not use a +<sect1>+ with an empty
+  +<title>+.) If you want to start your chapter with a
+  section heading, just delete this +<para>+.
+
+
+=== Section Title Here
+
+Opening para...
+

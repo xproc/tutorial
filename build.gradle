@@ -18,9 +18,11 @@ class CalabashTask extends DefaultTask {
   @TaskAction
   def calabashAction() {
     def args = [
-      "-isource=src/example.xml",
-      "-oresult=dist/tutorial.xml",
-      "docbook-toolchain.xpl"
+      "--debug",
+      "-isource=src/tutorial.xml",
+      "-oresult=dist/tutorial.asciidoc",
+      "deps/docbook-toolchain/docbook-toolchain.xpl",
+      "chunk-output=false"
     ]
 
     Main.main(args as String[])
@@ -29,11 +31,26 @@ class CalabashTask extends DefaultTask {
 
 def distDir = new File('dist')
 
+println '-----------------------'
+println 'Building xproc-tutorial'
+println '-----------------------'
+
 task assemble() {
+     println 'created dist directory'
      distDir.mkdirs()
 }
 
 task check(type: CalabashTask){
+
+println 'invoking xproc'
+
+task copyPoems(type: Copy) {
+  from 'dist/'
+  into 'tutorial/'
+}
+
+println 'copy asciidoc to tutorial'
+
 }
 
 
