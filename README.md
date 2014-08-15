@@ -20,6 +20,9 @@ curl -X POST -u xquery -H "Content-Type: application/json" -d "{\"scopes\":[\"re
 
 #github incants
 
- to delete tag
- git tag -d tagname
- git push origin :refs/tags/tagname
+## push tags
+git push origin --tags
+
+## to delete tag
+git tag -d tagname
+git push origin :refs/tags/tagname
