@@ -1,8 +1,18 @@
 # tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
 
-## Download Latest Release
+## How to use this Tutorial
 
-Is always available [here](https://github.com/xquery/xproc-tutorial/releases/latest)
+You can download the tutorial, with the latest release always available [here](https://github.com/xquery/xproc-tutorial/releases/latest)
+
+## Publish tutorial
+
+run gradle which will pull down XProc and build from docbook source
+
+```
+gradle
+```
+
+publish artifacts are generated into the dist directory
 
 ## Goal of this Tutorial
 
@@ -19,16 +29,6 @@ workflow
 ideas
 * other targets (saxon-ce help)
 * xquerydoc in docbook ?
-
-## How to publish tutorial
-
-run gradle which will pull down XProc and build from docbook source
-
-```
-gradle
-```
-
-artifacts are generated into dist directory
 
 # magic
 
