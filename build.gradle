@@ -14,9 +14,6 @@ import org.gradle.api.tasks.TaskAction
 import com.xmlcalabash.drivers.Main
 
 class CalabashTask extends DefaultTask {
-  String command
-  String url, password, username
-  File changeLog
 
   @TaskAction
   def calabashAction() {
