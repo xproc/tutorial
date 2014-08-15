@@ -24,7 +24,9 @@ ideas
 
 run gradle which will pull down XProc and build from docbook source
 
-```gradle```
+```
+gradle
+```
 
 artifacts are generated into dist directory
 
