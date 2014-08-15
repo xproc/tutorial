@@ -1,3 +1,5 @@
+defaultTasks 'assemble', check
+
 buildscript {
     repositories {
        mavenCentral()
