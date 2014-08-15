@@ -2,7 +2,7 @@
 
 The goals for xproc tutorial are manifold and wondrous.
 
-First we want to provide a high quality tutorial that will be the entry point to learning XProc. 
+First we want to provide a high quality tutorial that will be an entry point to learning XProc in both the first five minutes and first day scenarios. 
 
 Secondly we want to provide a reference publishing workflow usage of XProc for publishing books on github using docbook.
 
