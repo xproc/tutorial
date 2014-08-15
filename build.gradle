@@ -1,4 +1,4 @@
-defaultTasks 'assemble', check
+defaultTasks 'assemble', 'check'
 
 buildscript {
     repositories {
