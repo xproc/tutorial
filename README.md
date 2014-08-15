@@ -30,10 +30,10 @@ gradle
 
 artifacts are generated into dist directory
 
-# incant to generate oath token
-curl -X POST -u xquery -H "Content-Type: application/json" -d "{\"scopes\":[\"repo_deployment\",\"repo\",\"public_repo\"],\"note\":\"xproc-tutorial publish\"}" https://api.github.com/authorizations
+# magic
 
-#github incants
+## incant to generate oath token
+curl -X POST -u xquery -H "Content-Type: application/json" -d "{\"scopes\":[\"repo_deployment\",\"repo\",\"public_repo\"],\"note\":\"xproc-tutorial publish\"}" https://api.github.com/authorizations
 
 ## push tags
 git push origin --tags
