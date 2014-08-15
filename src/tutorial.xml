@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <!-- This is a sample book.xml file. See the O'Reilly DocBook Authoring Guidelines at https://prod.oreilly.com/external/tools/docbook/docs/authoring/ for information on working with DocBook XML. -->
+
+  <!-- Reference new files using XIncludes (not entities): http://www.sagehill.net/docbookxsl/ModularDoc.html#UsingXinclude -->
+
+  <!-- Each file should have a DOCTYPE at the top of it so you can validate it alone (just like this but with a chapter/preface instead of book-->
+
+  <!-- Remember, using XIncludes means that you'll have to add a flag (typically 'xinclude' with one or two dashes) when using XML processors/parsers -->
+
+  <!-- Validate with xmllint as follows (Basic setup same as libxslt: http://www.sagehill.net/docbookxsl/InstallingAProcessor.html)-->
+
+  <!-- (please collapse dashes in the line beloew) -->
+
+  <!-- $ xmllint - -xinclude - -noout - -postvalid book.xml -->
+
+  <title>XProc Tutorial</title>
+
+  <bookinfo>
+    <edition>1</edition>
+  </bookinfo>
+
+  <xi:include href="intro.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  
+</book>
