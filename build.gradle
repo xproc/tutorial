@@ -30,7 +30,10 @@ class CalabashTask extends DefaultTask {
   }
 }
 
+def distDir = new File('dist')
+
 task assemble() {
+     distDir.mkdirs()
 }
 
 task check(type: CalabashTask){
