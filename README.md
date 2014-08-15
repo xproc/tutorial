@@ -14,6 +14,14 @@ gradle
 
 publish artifacts are generated into the dist directory
 
+## How to contribute to this tutorial
+
+* fork this repository
+* edit docbook source
+* to view output on edited changes, run gradle
+* commit
+* create pull request
+
 ## Goal of this Tutorial
 
 The goal is to provide a high quality tutorial that will be an entry point to learning XProc. 
