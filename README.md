@@ -1,10 +1,8 @@
 # tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
 
-The goals for xproc tutorial are manifold and wondrous.
+The goal is to provide a high quality tutorial that will be an entry point to learning XProc in both the first five minutes and first day scenariosg. 
 
-First we want to provide a high quality tutorial that will be an entry point to learning XProc in both the first five minutes and first day scenariosg. 
-
-Secondly we want to provide a reference publishing workflow usage of XProc for publishing books on github using docbook.
+Additionally, we want to provide a reference publishing workflow using XProc with github for for publishing books with docbook.
 
 workflow
 * author tutorial in docbook, commit
