@@ -28,14 +28,10 @@ class CalabashTask extends DefaultTask {
   }
 }
 
-task assemble(type: CalabashTask) {
+task assemble() {
 }
 
-task clean(){
-delete "out.xml"
-}
-
-task check(){
+task check(type: CalabashTask){
 }
 
 
