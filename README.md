@@ -17,3 +17,9 @@ ideas
 
 # incant to generate oath token
 curl -X POST -u xquery -H "Content-Type: application/json" -d "{\"scopes\":[\"repo_deployment\",\"repo\",\"public_repo\"],\"note\":\"xproc-tutorial publish\"}" https://api.github.com/authorizations
+
+#github incants
+
+ to delete tag
+ git tag -d tagname
+ git push origin :refs/tags/tagname
