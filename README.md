@@ -14,3 +14,6 @@ ideas
 * other targets (saxon-ce help)
 * xquerydoc in docbook ?
 
+
+# incant to generate oath token
+curl -X POST -u xquery -H "Content-Type: application/json" -d "{\"scopes\":[\"repo_deployment\",\"repo\",\"public_repo\"],\"note\":\"xproc-tutorial publish\"}" https://api.github.com/authorizations
