@@ -16,7 +16,7 @@
 
   <!-- $ xmllint - -xinclude - -noout - -postvalid book.xml -->
 
-  <title>XProc Tutprial</title>
+  <title>XProc Tutorial</title>
 
   <bookinfo>
     <edition>1</edition>
