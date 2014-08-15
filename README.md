@@ -1,6 +1,8 @@
 # XProc tutorial [![Build Status](https://magnum.travis-ci.com/xquery/xproc-tutorial.svg?token=UNXhdYp7dYgp5Vyh8ZNz&branch=master)](https://magnum.travis-ci.com/xquery/xproc-tutorial)
 
-start [Tutorial](https://github.com/xquery/xproc-tutorial/releases/latest) learning XProc
+start [Tutorial](https://github.com/xquery/xproc-tutorial/tutorial) 
+
+download [Tutorial](https://github.com/xquery/xproc-tutorial/releases/latest) 
 
 XProc specification
 
